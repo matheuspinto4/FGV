@@ -1,0 +1,74 @@
+- **Genrerate the data:**
+    - Aqui a ideia é só gerar os dados mesmo
+    - basta usar `x = np.linespace(0,10,15)`
+    - criar alguma pertubação de tamanho 15 com `np.random.normal(0,1,15)`
+    - `y = np.sin(x) + noise`
+    - Não esquecer de fixar uma seed para o seu problema sempre gerar os mesmo dados 
+    - O detalhe desta parte é que a forma como você `gera` o seu vetor de pertubação `afeta a plotagem dos gráficos` das outras partes, então, caso fique com algo feio mais para frente, tente voltra aqui e mudar a seed ;)
+
+- **Split the points into training and testing:**
+    - Basta usar a função fornecida.
+    - Não esquecer de usar a proporção correta para o tamanho do teste, ele pede para reservar 5 pontos para teste. então `test_size = 5/15`
+
+- **Degree vs RMSE:**
+    - Aqui você terá de programar a regressão linear, pode ser a forma fechada mesmo (a que usa a `pseudo-inversa` e calcula um w bom em uma iteração só). E então retornar o seu $w$ achado.
+    - Não esquecer de modificar a sua $\Phi$ para que ela tenha a j-ésima coluna como $x^j$
+    - A sua $\Phi$ será (M+1) x (N).
+    - M é o `grau` que você escolheu e N é a `quantidade de pontos` passados em x.
+    - Também criar uma função para prever a resposta de um vetor de entrada x pode ser uma boa.
+        - Para prever o resultado de um vetor x, você deve antes de tudo achar a $\Phi$ dele para então fazer $y_{previsto} = \Phi w$  
+    - Também precisará de uma função que calcula o RMSE.
+    - Para fazer a plotagem pedida, você terá de realizar os seguintes passos para cada grau M escolhido:
+        - Calcular o w $w$ para a função de regressão linear para o grau M (digo isto pois presumo que você computa a matriz $\Phi$ dentro da função de regressão)
+        - agora vamos calcular o RMSE para o $x_{teste}$ e para o $x_{training}$
+        - Para o $x_{teste}$ calcule um $y_{test}$ e jogue os dois na função do RMSE
+        - Faça o mesmo para o $x_{training}$ 
+        - Armazene estes dois valores em listas diferentes
+
+    - Agora é só plotar o gráfico
+- **Training set size vs RMSE:**
+    - Este você só vai reutilizar as funções já criadas.
+    - O `grau` da função será `9`
+    - Você irá variar o tamanho do conjunto de treinamento seguindo os passos que ele deu : começa em 10 e vai até 500 pulando de 10 em 10.
+    - Você deve `Guardar` os mesmos 5 pontos de teste que usou antes, então não modifique eles
+    - para cada tamanho de conjunto n, relizar o seguinte:
+        - Criar um conjunto de treinamento de tamanho n, ou seja, dividir a reta real de 0 a 10 em n partes `np.linespace(0,10,n)`
+        - criar uma pertubação `noise `para eles: `np.random.normal(0,1,n)`
+        - e criar um y de treinamento com `np.sin(x_train) + noise`
+        - calcular o w para o seu conjunto de treinamento, utilizando o grau `n`, obviamente
+        - calcular o `RMSE` para o `y_test` (mesmo da questão anterior) e o `y_train`
+        - armazenar estes valores em listas
+    - Agora é só plotar o gráfico, as duas retas devem ficar próximas de 1 no final dele
+---
+
+- **KNN:**
+    - Primeiro vamos separar o dataset em `treino, validação e teste`. Não esquecer de usar uma seed fixa para o problema.
+    - KNN é usado para determinar a que classe um ponto pertence.
+    - O algoritmo funciona da seguinte forma:
+        - Você deve `sempre armazenar o conjunto de treinamento`, no sentido de que você sempre usará ele todo.
+        - Isto quer dizer que `não teremos um "w"` como resposta para calcular as classes de novos pontos.
+        - Digamos que você queira `determinar` a que `classe` pertence um ponto. Então você deverá achar os `k vizinhos mais próximos` e contar qual das `classes mais apareceu` nesses k vizinhos
+    - Vou criar um `pseudo-código`:
+        - A função recebe um X_train, um y_train, um X_test, e um k.
+        - criar uma `lista para armazenar as respostas` que você prever.
+        - para `cada ponto dentro de X_test`, você irá fazer o seguinte:
+            - Crie um `lista` para armazenar os `vizinhos` dele
+            - para cada ponto de `index i` de `treinamento` dentro de X_train, você vai `computar a distância` dele ao seu ponto de teste e armazenar este valor na forma de uma `tupla`, onde elá terá esta cara: `(y_train[i], distancia)`   
+            - `armazene este valor` dentro da lista de vizinhos
+            - Agora basta saber os `k vizinhos` com as `menores distancias` do seu ponto de treinamento. É só usar o atributo `lista.sort(key=lambda x:x[1])`, onde ele vai ordenar em ordem crescente a sua liat com base no segundo valor da tupla.
+            - Agora é só `pegar` os `k primeiros valores` da lista ordenada e ver `qual das classes mais aparece`. Tente usar a função `max()`  
+            - `armazena o valor da classe` que mais apareceu no seu `y_previsto`
+        - Agora é só retornar o seu y_previsto 
+- **Select the optimal $K$ by plotting the F1 score in the validation set at different values of $K$:**
+    - Primeiramente iremos calcular uma `função` para calcular o `F1-Score`:
+        - Basta criar a matriz de confusão (já fizemos isto em um dos laboratórios).
+        - `f1_score = tp/(tp + (fp + fn)/2)`.
+    - Agora vamos `selecionar` o `melhor k`:
+        - Escolher uma lista de k's para testar, pode ser range(1, 33, 2), pois assim teremos uma boa gama e só pegaremos os números `ímpares`, então `evitando que tenhamos um empate de decisão` entre duas classes para um ponto.
+        - Para `cada k`, calcular o `y_previsto` para a validação.
+            - Detalhe: Estamos usando o conjunto de validação pois queremos achar a melhor `cara` da nossa função. 
+        - para `cada y_previsto`, vamos calcular o `f1_score` e armazenar ele em uma lista.
+        - Agora é só plotar o gráfico.
+        - Para calcular a `performance do seu modelo`, iremos usar todo o `conjunto de treino (Treino + Validação)` para os `vizinhos` e o conjunto de `teste para o f1_score`.
+            - É só calcular. 
+
