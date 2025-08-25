@@ -121,7 +121,23 @@ A_t = \argmax_a \left[ Q_t(a) + x\sqrt{\frac{ln(t)}{N_t(a)}}\right]$$**
 
 $N_t(a)$ denotes the number of times that action $a$ has been selected prior to time $t$ and the number $c > 0$ controls the degree of exploration. 
 
+### 2.8 Gradient Bandit Algorithms
 
+In this section we consider learning a numerical *preference* for each action $a$, which we denote $H_t(a)$. The larger the preference, the more often that action i staken, but the preference has no interpretation in terms of reward. The action probabilities are determined according to a *soft-max distribution* :
+
+**$$
+Pr(A_t=a) = \frac{e^{H_t(a)}}{\sum_{b=1}^ke^{H_t(b)}} = \pi_t(a)$$**
+
+where $\pi_t(a)$ denotes the probability of taking action $a$ at time $t$.
+
+There is a natural learning algorithm for this setting based on the idea of stochastic gradient ascent. On each step, after selecting action $A_t$ and receiving the reward $R_t$, the action preferences are updated by:
+
+**$$
+H_{t+1}(A_t) = H_t(A_t) + \alpha(R_t - \overline{R_t})(1 - \pi_t(A_t)) \text{,  and} \\
+H_{t+1}(a) = H_t(a) - \alpha(R_t - \overline{R_t})\pi_t(a), \text{for all $a \neq A_t$ }$$**
+
+
+The \overline{R_t} term serves as a baseline with which the reward is compared.
 
 
 
