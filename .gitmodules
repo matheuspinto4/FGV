@@ -1,3 +1,6 @@
 [submodule "graduacao/3o_periodo/banco_de_dados/servidor/TUI_BD"]
 	path = graduacao/3o_periodo/banco_de_dados/servidor/TUI_BD
 	url = https://github.com/Ferreira17k/TUI_BD.git
+[submodule "graduacao/3o_periodo/estrutura_de_dados/projeto_final_ed"]
+	path = graduacao/3o_periodo/estrutura_de_dados/projeto_final_ed
+	url = https://github.com/Os-Estudiosos/projeto-final-ed.git
