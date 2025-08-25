@@ -4,3 +4,6 @@
 [submodule "graduacao/3o_periodo/estrutura_de_dados/projeto_final_ed"]
 	path = graduacao/3o_periodo/estrutura_de_dados/projeto_final_ed
 	url = https://github.com/Os-Estudiosos/projeto-final-ed.git
+[submodule "pesquisa/EEG"]
+	path = pesquisa/EEG
+	url = https://github.com/matheuspinto4/EEG.git
