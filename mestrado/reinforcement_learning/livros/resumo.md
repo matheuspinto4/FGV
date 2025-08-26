@@ -171,7 +171,13 @@ We can also compute the expected rewards for state-action pairs as a two-argumen
 **$$
 r(s,a) = E[R_t|S_{t-1}=s , A_{t-1} = a] = \sum_{r \isin R}r\sum_{s' \isin S}p(s',r | s,a)$$**
 
+and the expected rewards for state-action-next-state triples as a three-argument function:
 
+**$$
+r(s,a,s') = \sum_{r \isin R}r\frac{p(s',r|s,a)}{p(s'|s,a)}$$**
+
+
+The general rule we follow is that **anything that cannot be changed arbitrarily by the agent is considered to be outside of it and thus part of its environment**.
 
 
 
