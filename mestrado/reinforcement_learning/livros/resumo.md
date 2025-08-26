@@ -139,6 +139,39 @@ H_{t+1}(a) = H_t(a) - \alpha(R_t - \overline{R_t})\pi_t(a), \text{for all $a \ne
 
 The \overline{R_t} term serves as a baseline with which the reward is compared.
 
+### 2.9 Associative Search (Contextual Bandits)
+
+So far we have consideren **only nonassociative tasks**, that is, tasks in which there is no need to associate **different actions with different situations**. However, usually there is more than one situation, and the goal is to **learn a policy**: a mapping from situation to the actions that are best in those situations.
+Now suppose there are many k-armed bandits, and each one is presented to you in a different time step and is chosen randomly, but there is a color for each one of the bandits. 
+This is an example of an **associative search task**, so called because it involves both trial-and-error learning to *search* for the best actions, and association of these actions with the situations in which they are the best. Associative search tasks are intermediate between the k-armed bandit problem and the full reinforcement learning problem.
+
+## Chapter 3 Finite Markov Decision Processes
+
+MDPs are a classical formalization of sequential decision making. **MDPs involve delayed reward** and the need to tradeoff immediate and delayed reward. Whereas in bandit problems we estimated the value $q_*(a)$ of each action $a$, **in MDPs we estimate the value $q_*(s,a)$** of each action $a$ in each state $s$, or we estimate the **value $v_*(s)$ of each state given optimal action selections**
+
+
+### 3.1 The Agent-Enviroment Interface
+
+The learner and decision maker is called *agent*. The thing it interacts with, comprising everything outside the agent, is called the *environment*.
+
+In a *finite* MDP, the sets of states, actions, and rewards ($S, A,\text{and } R$ ) all have a finite number of elements. For particular values of these random variables, $s' \isin S$ and $r \isin R$, there is a probability of thoso values occurring at time $t$, given particular values of the preceding state and action:
+
+**$$
+p(s',r|s,a) = Pr(S_t = s', R_t = r | S_{t-1} = s, A_{t-1} = a)$$**
+
+The state must include information about all aspects of the past agent-environment interaction that make a difference for the future. If it does, then the state is said to have the **Markov property**.
+
+We can as well compute the *state-transition probabilities*:
+
+**$$
+p(s'|s,a) = Pr(S_t = s' | S_{t-1} = s, A_{t-1}) = \sum_{r \isin R}p(s',r|s,a)$$**
+
+We can also compute the expected rewards for state-action pairs as a two-argument function r:
+
+**$$
+r(s,a) = E[R_t|S_{t-1}=s , A_{t-1} = a] = \sum_{r \isin R}r\sum_{s' \isin S}p(s',r | s,a)$$**
+
+
 
 
 
