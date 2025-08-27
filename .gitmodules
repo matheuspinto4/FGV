@@ -7,3 +7,6 @@
 [submodule "pesquisa/EEG"]
 	path = pesquisa/EEG
 	url = https://github.com/matheuspinto4/EEG.git
+[submodule "graduacao/4o_periodo/modelagem_informacional/labs/dw-lab-individual-lojas-zagi-matheuspinto4"]
+	path = graduacao/4o_periodo/modelagem_informacional/labs/dw-lab-individual-lojas-zagi-matheuspinto4
+	url = https://github.com/FGV-Fundacao-Getulio-Vargas/dw-lab-individual-lojas-zagi-matheuspinto4.git
