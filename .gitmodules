@@ -10,3 +10,6 @@
 [submodule "graduacao/4o_periodo/modelagem_informacional/labs/dw-lab-individual-lojas-zagi-matheuspinto4"]
 	path = graduacao/4o_periodo/modelagem_informacional/labs/dw-lab-individual-lojas-zagi-matheuspinto4
 	url = https://github.com/FGV-Fundacao-Getulio-Vargas/dw-lab-individual-lojas-zagi-matheuspinto4.git
+[submodule "graduacao/4o_periodo/modelagem_informacional/DW/cho"]
+	path = graduacao/4o_periodo/modelagem_informacional/DW/cho
+	url = https://github.com/Os-Estudiosos/smallworld-cho.git
