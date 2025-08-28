@@ -13,3 +13,6 @@
 [submodule "graduacao/4o_periodo/modelagem_informacional/DW/cho"]
 	path = graduacao/4o_periodo/modelagem_informacional/DW/cho
 	url = https://github.com/Os-Estudiosos/smallworld-cho.git
+[submodule "mestrado/reinforcement_learning/projeto1"]
+	path = mestrado/reinforcement_learning/projeto1
+	url = https://github.com/matheuspinto4/reinforcement_learning_projeto1.git
