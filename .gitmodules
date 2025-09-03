@@ -16,3 +16,6 @@
 [submodule "mestrado/reinforcement_learning/projeto1"]
 	path = mestrado/reinforcement_learning/projeto1
 	url = https://github.com/matheuspinto4/reinforcement_learning_projeto1.git
+[submodule "fieldProject/hospital"]
+	path = fieldProject/hospital
+	url = https://github.com/alexoliveiraFGV24/FIELDS-EMAp-25.2-FJLES.git
