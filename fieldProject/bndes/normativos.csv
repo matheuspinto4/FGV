@@ -1,0 +1,484 @@
+text,label
+"O Banco Central do Brasil, tendo em vista o disposto na Resolução CMN nº 2.939, de 26 de março de 2002, e na Resolução BCB nº 76, de 23 de fevereiro de 2021, torna público que, das 11:30 às 11:40 horas do dia 10 de junho de 2024, acolherá propostas das
+ instituições financeiras participantes do módulo Oferta Pública (Ofpub) para a realização de operações de swap a serem registradas na B3 - Brasil, Bolsa, Balcão S.A., nos termos do ""Contrato de Swap Cambial com Ajuste Periódico Baseado em Operações Compromissadas
+ de Um Dia - SCS"" daquela bolsa, com as seguintes características:
+Posição          Posição
+Data de       Data de       assumida pelo    assumida pelas   Quantidade de
+início        vencimento    Banco Central    inst.financeiras contratos
+01/08/2024    03/02/2025     compradora       vendedora        até 12.000
+01/08/2024    01/04/2025     compradora       vendedora        até 12.000
+2. Serão aceitos no máximo até 12.000 (doze mil) contratos a serem distribuídos a critério do Banco Central do Brasil, entre os vencimentos acima mencionados.
+3.  Na formulação das propostas, limitadas a 5 (cinco) por instituição, deverão ser informadas a quantidade de contratos e a respectiva taxa de juros representativa de cupom cambial, expressa como taxa linear anual, base 360 (trezentos e sessenta) dias corridos,
+ com 3 (três) casas decimais.
+4. Na apuração da presente oferta pública será utilizado o critério de preço único, acatando-se todas as propostas com taxa igual ou inferior à taxa máxima aceita pelo Banco Central do Brasil, a qual será aplicada a todas as propostas vencedoras.
+5. O resultado desta oferta pública será divulgado após a apuração realizada pelo  Banco Central do Brasil.
+6. Após a divulgação do resultado, o Banco Central do Brasil enviará à B3 a relação das instituições contempladas, a quantidade de contratos aceita para cada uma e a taxa de juros apurada no leilão.
+7. Conforme previsto em Ofício-circular da B3, as instituições que tiverem suas propostas aceitas deverão eleger uma corretora associada àquela bolsa para que proceda ao pré-registro das operações de swap de que se trata.
+8. As pessoas físicas e as demais pessoas jurídicas poderão participar da oferta de que trata este comunicado, por intermédio das instituições referidas no parágrafo primeiro.
+9. A presente oferta pública será realizada exclusivamente pelo módulo Ofpub, previsto no Regulamento do Sistema Especial de Liquidação e de Custódia (Selic).
+Departamento de Operações do Mercado Aberto
+André de Oliveira Amante
+Chefe",0
+"O Banco Central do Brasil, com base no disposto na Resolução BCB nº 75, de 23 de fevereiro de 2021, torna público que, das 12:00 às 12:30 horas do dia 10 de junho de 2024, acolherá propostas das instituições financeiras participantes do módulo Ofpub para
+ a realização de operações de venda de títulos públicos com compromisso de revenda assumido pela instituição financeira compradora, admitida a livre movimentação dos títulos, com as seguintes características:
+I – títulos:
+a) Letras do Tesouro Nacional (LTN): vencimentos em 1º/10/2024, 1º/1/2025, 1º/4/2025, 1º/7/2025, 1º/10/2025, 1º/1/2026, 1º/4/2026, 1º/7/2026, 1º/7/2027, 1º/1/2028 e 1º/1/2030;
+b) Notas do Tesouro Nacional, Série B (NTN-B): vencimentos em   15/5/2025, 15/8/2026, 15/5/2027, 15/8/2028, 15/5/2029, 15/8/2030, 15/8/2032, 15/5/2033,  15/5/2035, 15/8/2040, 15/5/2045, 15/8/2050, 15/5/2055 e 15/8/2060;
+c) Notas do Tesouro Nacional, Série F (NTN-F): vencimentos em 1º/1/2025, 1º/1/2027,  1º/1/2029, 1º/1/2031, 1º/1/2033 e 1º/1/2035; e
+d) Letras Financeiras do Tesouro (LFT): vencimentos em 1º/3/2025,  1º/9/2025, 1º/3/2026, 1º/9/2026, 1º/3/2027, 1º/9/2027, 1º/3/2028,  1º/9/2028, 1º/3/2029, 1º/9/2029, 1º/3/2030 e 1º/6/2030.
+II – valor financeiro máximo desta oferta: R$ 4.000.000.000,00 (quatro bilhões de reais), observado que, de um mesmo título/vencimento, cada instituição financeira poderá adquirir, no máximo, 100% do valor de sua(s) proposta(s) aceita(s);
+III – preços unitários de venda: os informados pelo Departamento de Operações do Mercado Aberto (Demab), às 11:30 horas de 10/6/2024, na página do Sistema Especial de Liquidação e de Custódia  (Selic) na internet (www.rtm.selic.gov.br);
+IV – divulgação do resultado: 10/6/2024, a partir das 12:30 horas;
+V – data de liquidação da venda: 11/6/2024; e
+VI – data de liquidação da revenda: 10/9/2024.
+2. Na formulação das propostas, limitadas a 3 (três) por instituição, deverão ser informados o percentual, com 4 (quatro) casas decimais, a ser aplicado sobre o fator diário da taxa Selic deduzido de uma unidade e o valor  financeiro, em milhares de reais.
+3. As propostas deverão ter curso na aba Ofpub/Ofdealer do  Selic, opção “Lançamento” do submenu “Operações Compromissadas”.
+4. O resultado será apurado pelo critério de percentual  único, acatando-se todas as propostas com percentual igual ou inferior ao percentual máximo aceito pelo Banco Central do Brasil,  o qual será aplicado a todas as propostas vencedoras.
+5. A instituição com proposta aceita deverá informar ao Demab, até as 16:00 horas de 10/6/2024, o vencimento e o valor financeiro de cada um dos títulos objeto de sua compra, utilizando o módulo “Lastro” do Selic.
+6. O preço unitário da revenda será calculado com a seguinte fórmula:
+n                                    m
+PUrevenda = PUvenda x P {[(fk - 1) x S/100]  +1}  - CJ1 x  P {[(fk - 1) x
+k=1                                  k=1
+q
+S/100]+1}  - CJ2  x P {[(fk -1) x S/100]+1}
+k=1
+em que:
+I – PUrevenda corresponde ao preço unitário de revenda do título ao Banco Central do Brasil na data do compromisso, arredondado na oitava casa decimal;
+II – PUvenda corresponde ao preço unitário de venda do título pelo Banco Central do Brasil, conforme definido no primeiro parágrafo, inciso III;
+III – f corresponde ao fator diário da taxa Selic, divulgado pelo Banco Central do Brasil, relativo ao k-ésimo dia útil;
+IV – S corresponde ao percentual definido no quarto parágrafo;
+V – n corresponde ao número de dias úteis compreendidos entre a data de liquidação da venda, inclusive, e a data de liquidação da revenda, exclusive;
+VI – CJ1 corresponde ao primeiro cupom de juros unitário pago pelo título durante a vigência do compromisso;
+VII – m corresponde ao número de dias úteis compreendidos entre a data de pagamento do cupom de juros, inclusive, e a data de liquidação da revenda, exclusive;
+VIII – CJ2 corresponde ao segundo cupom de juros unitário pago pelo título durante a vigência do compromisso;
+IX  –  q corresponde ao número de dias úteis compreendidos entre a data de pagamento do segundo  cupom de juros, inclusive, e a data de liquidação da revenda, exclusive; e
+X  –  P corresponde ao produtório.
+7. Não havendo pagamento de cupom de juros durante a vigência do compromisso, os valores “CJ1” e “CJ2” contidos na fórmula definida no sexto parágrafo serão iguais a zero.
+8. As operações de que tratam este Comunicado devem ser registradas no Selic sob o código 1047.
+Departamento de Operações do Mercado Aberto
+André de Oliveira Amante
+Chefe",0
+"O certificado digital SSL wildcard do Banco Central do Brasil utilizado em sistemas disponíveis na Internet será substituído no dia
+16 de junho de 2024
+,
+a partir das 8h
+. O novo certificado digital, bem como sua cadeia de confiança, está disponível em:
+https://www.bcb.gov.br/estabilidadefinanceira/certificacaodigital.
+2. Os usuários de serviços webservices devem verificar e providenciar os necessários ajustes decorrentes da troca do certificado digital.
+3.  Os principais sistemas afetados serão:
+Sistema         Endereço
+BCCorreio       https://bccorreio.bcb.gov.br/bccorreiows/
+PTAX            https://ptax.bcb.gov.br/wsmoeda/
+RDR             https://www3.bcb.gov.br/rdrws/
+SCR             https://scr.bcb.gov.br/wsscr/
+SGS             https://www3.bcb.gov.br/wssgs/services/FachadaWSSGS/
+STA
+https://sta.bcb.gov.br/staws/
+Dados abertos   https://dadosabertos.bcb.gov.br/
+Haroldo Jayme Martins Froes Cruz
+Chefe do Departamento de Tecnologia da Informação",0
+"Divulgamos o nome aprovado de pessoas eleitas/nomeadas para cargos de órgãos estatutários ou contratuais de instituições financeiras, administradoras de consórcio e demais sociedades autorizadas a funcionar pelo Banco Central do Brasil:
+Processo:
+268471.
+Data do despacho:
+4.6.2024.
+Instituição:
+Cooperativa de Crédito Carlos Chagas Ltda. - Sicoob Carlos Chagas (CNPJ 41.753.500).
+Ato societário:
+Assembleia Geral Ordinária de 1.4.2024.
+Órgão estatutário:
+Conselho Fiscal.
+Nomes:
+Kassia Martins Costa Alves (CPF 046.497.496-89); Márcio Felipe Viana Maia (CPF 084.829.956-69); Otávio Pereira Coelho (CPF 109.242.536-57); e Samuel Nacur Batista Rodrigues Quaresma (CPF 103.597.406-18).
+Processo:
+268549.
+Data do despacho:
+5.6.2024.
+Instituição:
+Emcash Serviços Financeiros Sociedade de Empréstimo entre Pessoas S.A. (CNPJ 34.139.916).
+Ato societário:
+Assembleia Geral Ordinária e Extraordinária de 29.4.2024.
+Órgão estatutário:
+Diretoria.
+Nomes:
+Guilherme Bianchetti Correa Maia (CPF 084.913.606-70); e Márcio Nunes da Silva (CPF 512.399.905-10).
+Processo:
+268553.
+Data do despacho:
+4.6.2024.
+Instituição:
+Agência de Fomento do Estado do Amazonas S.A. - Afeam (CNPJ 03.183.937).
+Ato societário:
+Reunião do Conselho de Administração de 29.4.2024.
+Órgão estatutário:
+Diretoria Colegiada.
+Nomes:
+Cristina Coelho da Silva (CPF 418.291.662-04); João Batista Silva Tavares (CPF 077.593.982-04); e Marcos Vinícius Cardoso de Castro (CPF 347.152.742-72).
+Processo:
+269170.
+Data do despacho:
+5.6.2024.
+Instituição:
+Mercado Crédito Sociedade de Crédito, Financiamento e Investimento S.A. (CNPJ 37.679.449).
+Ato societário:
+Assembleia Geral Extraordinária de 10.5.2024.
+Órgão estatutário:
+Diretoria.
+Nome:
+Ricardo Lagreca Siqueira (CPF 149.094.518-03).
+Processo:
+268444.
+Data do despacho:
+28.5.2024.
+Instituição:
+Cooperativa de Crédito e Investimento com Interação Solidária Centro Serra - Cresol Centro Serra (CNPJ 01.155.801).
+Ato societário:
+Reunião do Conselho de Administração de 29.4.2024.
+Órgão estatutário:
+Diretoria Executiva.
+Nome:
+Taynara Mariot (CPF 096.055.039-99).
+Carolina Pancotto Bohrer
+Chefe do Departamento de Organização do Sistema Financeiro",0
+"O Banco Central do Brasil, tendo em vista o disposto na Resolução CMN nº 2.939, de 26 de março de 2002, e na Resolução BCB nº 76, de 23 de fevereiro de 2021, torna público que, das 11:30 às 11:40 horas do dia 7 de junho de 2024, acolherá propostas das instituições
+ financeiras participantes do módulo Oferta Pública (Ofpub) para a realização de operações de swap a serem registradas na B3 - Brasil, Bolsa, Balcão S.A., nos termos do ""Contrato de Swap Cambial com Ajuste Periódico Baseado em Operações Compromissadas de Um
+ Dia - SCS"" daquela bolsa, com as seguintes características:
+Posição          Posição
+Data de       Data de       assumida pelo    assumida pelas   Quantidade de
+início        vencimento    Banco Central    inst.financeiras contratos
+01/08/2024    03/02/2025     compradora       vendedora        até 12.000
+01/08/2024    01/04/2025     compradora       vendedora        até 12.000
+2. Serão aceitos no máximo até 12.000 (doze mil) contratos a serem distribuídos a critério do Banco Central do Brasil, entre os vencimentos acima mencionados.
+3.  Na formulação das propostas, limitadas a 5 (cinco) por instituição, deverão ser informadas a quantidade de contratos e a respectiva taxa de juros representativa de cupom cambial, expressa como taxa linear anual, base 360 (trezentos e sessenta) dias corridos,
+ com 3 (três) casas decimais.
+4. Na apuração da presente oferta pública será utilizado o critério de preço único, acatando-se todas as propostas com taxa igual ou inferior à taxa máxima aceita pelo Banco Central do Brasil, a qual será aplicada a todas as propostas vencedoras.
+5. O resultado desta oferta pública será divulgado após a apuração realizada pelo  Banco Central do Brasil.
+6. Após a divulgação do resultado, o Banco Central do Brasil enviará à B3 a relação das instituições contempladas, a quantidade de contratos aceita para cada uma e a taxa de juros apurada no leilão.
+7. Conforme previsto em Ofício-circular da B3, as instituições que tiverem suas propostas aceitas deverão eleger uma corretora associada àquela bolsa para que proceda ao pré-registro das operações de swap de que se trata.
+8. As pessoas físicas e as demais pessoas jurídicas poderão participar da oferta de que trata este comunicado, por intermédio das instituições referidas no parágrafo primeiro.
+9. A presente oferta pública será realizada exclusivamente pelo módulo Ofpub, previsto no Regulamento do Sistema Especial de Liquidação e de Custódia (Selic).
+Departamento de Operações do Mercado Aberto
+André de Oliveira Amante
+Chefe",0
+"O Banco Central do Brasil, tendo em vista o disposto na Resolução CMN nº 2.939, de 26 de março de 2002, e na Resolução BCB nº 76, de 23 de fevereiro de 2021, torna público que, das 11:30 às 11:40 horas do dia 10 de junho de 2024, acolherá propostas das
+ instituições financeiras participantes do módulo Oferta Pública (Ofpub) para a realização de operações de swap a serem registradas na B3 - Brasil, Bolsa, Balcão S.A., nos termos do ""Contrato de Swap Cambial com Ajuste Periódico Baseado em Operações Compromissadas
+ de Um Dia - SCS"" daquela bolsa, com as seguintes características:
+Posição          Posição
+Data de       Data de       assumida pelo    assumida pelas   Quantidade de
+início        vencimento    Banco Central    inst.financeiras contratos
+01/08/2024    03/02/2025     compradora       vendedora        até 12.000
+01/08/2024    01/04/2025     compradora       vendedora        até 12.000
+2. Serão aceitos no máximo até 12.000 (doze mil) contratos a serem distribuídos a critério do Banco Central do Brasil, entre os vencimentos acima mencionados.
+3.  Na formulação das propostas, limitadas a 5 (cinco) por instituição, deverão ser informadas a quantidade de contratos e a respectiva taxa de juros representativa de cupom cambial, expressa como taxa linear anual, base 360 (trezentos e sessenta) dias corridos,
+ com 3 (três) casas decimais.
+4. Na apuração da presente oferta pública será utilizado o critério de preço único, acatando-se todas as propostas com taxa igual ou inferior à taxa máxima aceita pelo Banco Central do Brasil, a qual será aplicada a todas as propostas vencedoras.
+5. O resultado desta oferta pública será divulgado após a apuração realizada pelo  Banco Central do Brasil.
+6. Após a divulgação do resultado, o Banco Central do Brasil enviará à B3 a relação das instituições contempladas, a quantidade de contratos aceita para cada uma e a taxa de juros apurada no leilão.
+7. Conforme previsto em Ofício-circular da B3, as instituições que tiverem suas propostas aceitas deverão eleger uma corretora associada àquela bolsa para que proceda ao pré-registro das operações de swap de que se trata.
+8. As pessoas físicas e as demais pessoas jurídicas poderão participar da oferta de que trata este comunicado, por intermédio das instituições referidas no parágrafo primeiro.
+9. A presente oferta pública será realizada exclusivamente pelo módulo Ofpub, previsto no Regulamento do Sistema Especial de Liquidação e de Custódia (Selic).
+Departamento de Operações do Mercado Aberto
+André de Oliveira Amante
+Chefe",0
+"O Banco Central do Brasil, com base no disposto na Resolução BCB nº 75, de 23 de fevereiro de 2021, torna público que, das 12:00 às 12:30 horas do dia 10 de junho de 2024, acolherá propostas das instituições financeiras participantes do módulo Ofpub para
+ a realização de operações de venda de títulos públicos com compromisso de revenda assumido pela instituição financeira compradora, admitida a livre movimentação dos títulos, com as seguintes características:
+I – títulos:
+a) Letras do Tesouro Nacional (LTN): vencimentos em 1º/10/2024, 1º/1/2025, 1º/4/2025, 1º/7/2025, 1º/10/2025, 1º/1/2026, 1º/4/2026, 1º/7/2026, 1º/7/2027, 1º/1/2028 e 1º/1/2030;
+b) Notas do Tesouro Nacional, Série B (NTN-B): vencimentos em   15/5/2025, 15/8/2026, 15/5/2027, 15/8/2028, 15/5/2029, 15/8/2030, 15/8/2032, 15/5/2033,  15/5/2035, 15/8/2040, 15/5/2045, 15/8/2050, 15/5/2055 e 15/8/2060;
+c) Notas do Tesouro Nacional, Série F (NTN-F): vencimentos em 1º/1/2025, 1º/1/2027,  1º/1/2029, 1º/1/2031, 1º/1/2033 e 1º/1/2035; e
+d) Letras Financeiras do Tesouro (LFT): vencimentos em 1º/3/2025,  1º/9/2025, 1º/3/2026, 1º/9/2026, 1º/3/2027, 1º/9/2027, 1º/3/2028,  1º/9/2028, 1º/3/2029, 1º/9/2029, 1º/3/2030 e 1º/6/2030.
+II – valor financeiro máximo desta oferta: R$ 4.000.000.000,00 (quatro bilhões de reais), observado que, de um mesmo título/vencimento, cada instituição financeira poderá adquirir, no máximo, 100% do valor de sua(s) proposta(s) aceita(s);
+III – preços unitários de venda: os informados pelo Departamento de Operações do Mercado Aberto (Demab), às 11:30 horas de 10/6/2024, na página do Sistema Especial de Liquidação e de Custódia  (Selic) na internet (www.rtm.selic.gov.br);
+IV – divulgação do resultado: 10/6/2024, a partir das 12:30 horas;
+V – data de liquidação da venda: 11/6/2024; e
+VI – data de liquidação da revenda: 10/9/2024.
+2. Na formulação das propostas, limitadas a 3 (três) por instituição, deverão ser informados o percentual, com 4 (quatro) casas decimais, a ser aplicado sobre o fator diário da taxa Selic deduzido de uma unidade e o valor  financeiro, em milhares de reais.
+3. As propostas deverão ter curso na aba Ofpub/Ofdealer do  Selic, opção “Lançamento” do submenu “Operações Compromissadas”.
+4. O resultado será apurado pelo critério de percentual  único, acatando-se todas as propostas com percentual igual ou inferior ao percentual máximo aceito pelo Banco Central do Brasil,  o qual será aplicado a todas as propostas vencedoras.
+5. A instituição com proposta aceita deverá informar ao Demab, até as 16:00 horas de 10/6/2024, o vencimento e o valor financeiro de cada um dos títulos objeto de sua compra, utilizando o módulo “Lastro” do Selic.
+6. O preço unitário da revenda será calculado com a seguinte fórmula:
+n                                    m
+PUrevenda = PUvenda x P {[(fk - 1) x S/100]  +1}  - CJ1 x  P {[(fk - 1) x
+k=1                                  k=1
+q
+S/100]+1}  - CJ2  x P {[(fk -1) x S/100]+1}
+k=1
+em que:
+I – PUrevenda corresponde ao preço unitário de revenda do título ao Banco Central do Brasil na data do compromisso, arredondado na oitava casa decimal;
+II – PUvenda corresponde ao preço unitário de venda do título pelo Banco Central do Brasil, conforme definido no primeiro parágrafo, inciso III;
+III – f corresponde ao fator diário da taxa Selic, divulgado pelo Banco Central do Brasil, relativo ao k-ésimo dia útil;
+IV – S corresponde ao percentual definido no quarto parágrafo;
+V – n corresponde ao número de dias úteis compreendidos entre a data de liquidação da venda, inclusive, e a data de liquidação da revenda, exclusive;
+VI – CJ1 corresponde ao primeiro cupom de juros unitário pago pelo título durante a vigência do compromisso;
+VII – m corresponde ao número de dias úteis compreendidos entre a data de pagamento do cupom de juros, inclusive, e a data de liquidação da revenda, exclusive;
+VIII – CJ2 corresponde ao segundo cupom de juros unitário pago pelo título durante a vigência do compromisso;
+IX  –  q corresponde ao número de dias úteis compreendidos entre a data de pagamento do segundo  cupom de juros, inclusive, e a data de liquidação da revenda, exclusive; e
+X  –  P corresponde ao produtório.
+7. Não havendo pagamento de cupom de juros durante a vigência do compromisso, os valores “CJ1” e “CJ2” contidos na fórmula definida no sexto parágrafo serão iguais a zero.
+8. As operações de que tratam este Comunicado devem ser registradas no Selic sob o código 1047.
+Departamento de Operações do Mercado Aberto
+André de Oliveira Amante
+Chefe",0
+"O certificado digital SSL wildcard do Banco Central do Brasil utilizado em sistemas disponíveis na Internet será substituído no dia
+16 de junho de 2024
+,
+a partir das 8h
+. O novo certificado digital, bem como sua cadeia de confiança, está disponível em:
+https://www.bcb.gov.br/estabilidadefinanceira/certificacaodigital.
+2. Os usuários de serviços webservices devem verificar e providenciar os necessários ajustes decorrentes da troca do certificado digital.
+3.  Os principais sistemas afetados serão:
+Sistema         Endereço
+BCCorreio       https://bccorreio.bcb.gov.br/bccorreiows/
+PTAX            https://ptax.bcb.gov.br/wsmoeda/
+RDR             https://www3.bcb.gov.br/rdrws/
+SCR             https://scr.bcb.gov.br/wsscr/
+SGS             https://www3.bcb.gov.br/wssgs/services/FachadaWSSGS/
+STA
+https://sta.bcb.gov.br/staws/
+Dados abertos   https://dadosabertos.bcb.gov.br/
+Haroldo Jayme Martins Froes Cruz
+Chefe do Departamento de Tecnologia da Informação",0
+"Divulgamos o nome aprovado de pessoas eleitas/nomeadas para cargos de órgãos estatutários ou contratuais de instituições financeiras, administradoras de consórcio e demais sociedades autorizadas a funcionar pelo Banco Central do Brasil:
+Processo:
+268471.
+Data do despacho:
+4.6.2024.
+Instituição:
+Cooperativa de Crédito Carlos Chagas Ltda. - Sicoob Carlos Chagas (CNPJ 41.753.500).
+Ato societário:
+Assembleia Geral Ordinária de 1.4.2024.
+Órgão estatutário:
+Conselho Fiscal.
+Nomes:
+Kassia Martins Costa Alves (CPF 046.497.496-89); Márcio Felipe Viana Maia (CPF 084.829.956-69); Otávio Pereira Coelho (CPF 109.242.536-57); e Samuel Nacur Batista Rodrigues Quaresma (CPF 103.597.406-18).
+Processo:
+268549.
+Data do despacho:
+5.6.2024.
+Instituição:
+Emcash Serviços Financeiros Sociedade de Empréstimo entre Pessoas S.A. (CNPJ 34.139.916).
+Ato societário:
+Assembleia Geral Ordinária e Extraordinária de 29.4.2024.
+Órgão estatutário:
+Diretoria.
+Nomes:
+Guilherme Bianchetti Correa Maia (CPF 084.913.606-70); e Márcio Nunes da Silva (CPF 512.399.905-10).
+Processo:
+268553.
+Data do despacho:
+4.6.2024.
+Instituição:
+Agência de Fomento do Estado do Amazonas S.A. - Afeam (CNPJ 03.183.937).
+Ato societário:
+Reunião do Conselho de Administração de 29.4.2024.
+Órgão estatutário:
+Diretoria Colegiada.
+Nomes:
+Cristina Coelho da Silva (CPF 418.291.662-04); João Batista Silva Tavares (CPF 077.593.982-04); e Marcos Vinícius Cardoso de Castro (CPF 347.152.742-72).
+Processo:
+269170.
+Data do despacho:
+5.6.2024.
+Instituição:
+Mercado Crédito Sociedade de Crédito, Financiamento e Investimento S.A. (CNPJ 37.679.449).
+Ato societário:
+Assembleia Geral Extraordinária de 10.5.2024.
+Órgão estatutário:
+Diretoria.
+Nome:
+Ricardo Lagreca Siqueira (CPF 149.094.518-03).
+Processo:
+268444.
+Data do despacho:
+28.5.2024.
+Instituição:
+Cooperativa de Crédito e Investimento com Interação Solidária Centro Serra - Cresol Centro Serra (CNPJ 01.155.801).
+Ato societário:
+Reunião do Conselho de Administração de 29.4.2024.
+Órgão estatutário:
+Diretoria Executiva.
+Nome:
+Taynara Mariot (CPF 096.055.039-99).
+Carolina Pancotto Bohrer
+Chefe do Departamento de Organização do Sistema Financeiro",0
+"O Banco Central do Brasil, tendo em vista o disposto na Resolução CMN nº 2.939, de 26 de março de 2002, e na Resolução BCB nº 76, de 23 de fevereiro de 2021, torna público que, das 11:30 às 11:40 horas do dia 7 de junho de 2024, acolherá propostas das instituições
+ financeiras participantes do módulo Oferta Pública (Ofpub) para a realização de operações de swap a serem registradas na B3 - Brasil, Bolsa, Balcão S.A., nos termos do ""Contrato de Swap Cambial com Ajuste Periódico Baseado em Operações Compromissadas de Um
+ Dia - SCS"" daquela bolsa, com as seguintes características:
+Posição          Posição
+Data de       Data de       assumida pelo    assumida pelas   Quantidade de
+início        vencimento    Banco Central    inst.financeiras contratos
+01/08/2024    03/02/2025     compradora       vendedora        até 12.000
+01/08/2024    01/04/2025     compradora       vendedora        até 12.000
+2. Serão aceitos no máximo até 12.000 (doze mil) contratos a serem distribuídos a critério do Banco Central do Brasil, entre os vencimentos acima mencionados.
+3.  Na formulação das propostas, limitadas a 5 (cinco) por instituição, deverão ser informadas a quantidade de contratos e a respectiva taxa de juros representativa de cupom cambial, expressa como taxa linear anual, base 360 (trezentos e sessenta) dias corridos,
+ com 3 (três) casas decimais.
+4. Na apuração da presente oferta pública será utilizado o critério de preço único, acatando-se todas as propostas com taxa igual ou inferior à taxa máxima aceita pelo Banco Central do Brasil, a qual será aplicada a todas as propostas vencedoras.
+5. O resultado desta oferta pública será divulgado após a apuração realizada pelo  Banco Central do Brasil.
+6. Após a divulgação do resultado, o Banco Central do Brasil enviará à B3 a relação das instituições contempladas, a quantidade de contratos aceita para cada uma e a taxa de juros apurada no leilão.
+7. Conforme previsto em Ofício-circular da B3, as instituições que tiverem suas propostas aceitas deverão eleger uma corretora associada àquela bolsa para que proceda ao pré-registro das operações de swap de que se trata.
+8. As pessoas físicas e as demais pessoas jurídicas poderão participar da oferta de que trata este comunicado, por intermédio das instituições referidas no parágrafo primeiro.
+9. A presente oferta pública será realizada exclusivamente pelo módulo Ofpub, previsto no Regulamento do Sistema Especial de Liquidação e de Custódia (Selic).
+Departamento de Operações do Mercado Aberto
+André de Oliveira Amante
+Chefe",0
+"O Banco Central do Brasil, tendo em vista o disposto na Resolução CMN nº 2.939, de 26 de março de 2002, e na Resolução BCB nº 76, de 23 de fevereiro de 2021, torna público que, das 11:30 às 11:40 horas do dia 10 de junho de 2024, acolherá propostas das
+ instituições financeiras participantes do módulo Oferta Pública (Ofpub) para a realização de operações de swap a serem registradas na B3 - Brasil, Bolsa, Balcão S.A., nos termos do ""Contrato de Swap Cambial com Ajuste Periódico Baseado em Operações Compromissadas
+ de Um Dia - SCS"" daquela bolsa, com as seguintes características:
+Posição          Posição
+Data de       Data de       assumida pelo    assumida pelas   Quantidade de
+início        vencimento    Banco Central    inst.financeiras contratos
+01/08/2024    03/02/2025     compradora       vendedora        até 12.000
+01/08/2024    01/04/2025     compradora       vendedora        até 12.000
+2. Serão aceitos no máximo até 12.000 (doze mil) contratos a serem distribuídos a critério do Banco Central do Brasil, entre os vencimentos acima mencionados.
+3.  Na formulação das propostas, limitadas a 5 (cinco) por instituição, deverão ser informadas a quantidade de contratos e a respectiva taxa de juros representativa de cupom cambial, expressa como taxa linear anual, base 360 (trezentos e sessenta) dias corridos,
+ com 3 (três) casas decimais.
+4. Na apuração da presente oferta pública será utilizado o critério de preço único, acatando-se todas as propostas com taxa igual ou inferior à taxa máxima aceita pelo Banco Central do Brasil, a qual será aplicada a todas as propostas vencedoras.
+5. O resultado desta oferta pública será divulgado após a apuração realizada pelo  Banco Central do Brasil.
+6. Após a divulgação do resultado, o Banco Central do Brasil enviará à B3 a relação das instituições contempladas, a quantidade de contratos aceita para cada uma e a taxa de juros apurada no leilão.
+7. Conforme previsto em Ofício-circular da B3, as instituições que tiverem suas propostas aceitas deverão eleger uma corretora associada àquela bolsa para que proceda ao pré-registro das operações de swap de que se trata.
+8. As pessoas físicas e as demais pessoas jurídicas poderão participar da oferta de que trata este comunicado, por intermédio das instituições referidas no parágrafo primeiro.
+9. A presente oferta pública será realizada exclusivamente pelo módulo Ofpub, previsto no Regulamento do Sistema Especial de Liquidação e de Custódia (Selic).
+Departamento de Operações do Mercado Aberto
+André de Oliveira Amante
+Chefe",0
+"O Banco Central do Brasil, com base no disposto na Resolução BCB nº 75, de 23 de fevereiro de 2021, torna público que, das 12:00 às 12:30 horas do dia 10 de junho de 2024, acolherá propostas das instituições financeiras participantes do módulo Ofpub para
+ a realização de operações de venda de títulos públicos com compromisso de revenda assumido pela instituição financeira compradora, admitida a livre movimentação dos títulos, com as seguintes características:
+I – títulos:
+a) Letras do Tesouro Nacional (LTN): vencimentos em 1º/10/2024, 1º/1/2025, 1º/4/2025, 1º/7/2025, 1º/10/2025, 1º/1/2026, 1º/4/2026, 1º/7/2026, 1º/7/2027, 1º/1/2028 e 1º/1/2030;
+b) Notas do Tesouro Nacional, Série B (NTN-B): vencimentos em   15/5/2025, 15/8/2026, 15/5/2027, 15/8/2028, 15/5/2029, 15/8/2030, 15/8/2032, 15/5/2033,  15/5/2035, 15/8/2040, 15/5/2045, 15/8/2050, 15/5/2055 e 15/8/2060;
+c) Notas do Tesouro Nacional, Série F (NTN-F): vencimentos em 1º/1/2025, 1º/1/2027,  1º/1/2029, 1º/1/2031, 1º/1/2033 e 1º/1/2035; e
+d) Letras Financeiras do Tesouro (LFT): vencimentos em 1º/3/2025,  1º/9/2025, 1º/3/2026, 1º/9/2026, 1º/3/2027, 1º/9/2027, 1º/3/2028,  1º/9/2028, 1º/3/2029, 1º/9/2029, 1º/3/2030 e 1º/6/2030.
+II – valor financeiro máximo desta oferta: R$ 4.000.000.000,00 (quatro bilhões de reais), observado que, de um mesmo título/vencimento, cada instituição financeira poderá adquirir, no máximo, 100% do valor de sua(s) proposta(s) aceita(s);
+III – preços unitários de venda: os informados pelo Departamento de Operações do Mercado Aberto (Demab), às 11:30 horas de 10/6/2024, na página do Sistema Especial de Liquidação e de Custódia  (Selic) na internet (www.rtm.selic.gov.br);
+IV – divulgação do resultado: 10/6/2024, a partir das 12:30 horas;
+V – data de liquidação da venda: 11/6/2024; e
+VI – data de liquidação da revenda: 10/9/2024.
+2. Na formulação das propostas, limitadas a 3 (três) por instituição, deverão ser informados o percentual, com 4 (quatro) casas decimais, a ser aplicado sobre o fator diário da taxa Selic deduzido de uma unidade e o valor  financeiro, em milhares de reais.
+3. As propostas deverão ter curso na aba Ofpub/Ofdealer do  Selic, opção “Lançamento” do submenu “Operações Compromissadas”.
+4. O resultado será apurado pelo critério de percentual  único, acatando-se todas as propostas com percentual igual ou inferior ao percentual máximo aceito pelo Banco Central do Brasil,  o qual será aplicado a todas as propostas vencedoras.
+5. A instituição com proposta aceita deverá informar ao Demab, até as 16:00 horas de 10/6/2024, o vencimento e o valor financeiro de cada um dos títulos objeto de sua compra, utilizando o módulo “Lastro” do Selic.
+6. O preço unitário da revenda será calculado com a seguinte fórmula:
+n                                    m
+PUrevenda = PUvenda x P {[(fk - 1) x S/100]  +1}  - CJ1 x  P {[(fk - 1) x
+k=1                                  k=1
+q
+S/100]+1}  - CJ2  x P {[(fk -1) x S/100]+1}
+k=1
+em que:
+I – PUrevenda corresponde ao preço unitário de revenda do título ao Banco Central do Brasil na data do compromisso, arredondado na oitava casa decimal;
+II – PUvenda corresponde ao preço unitário de venda do título pelo Banco Central do Brasil, conforme definido no primeiro parágrafo, inciso III;
+III – f corresponde ao fator diário da taxa Selic, divulgado pelo Banco Central do Brasil, relativo ao k-ésimo dia útil;
+IV – S corresponde ao percentual definido no quarto parágrafo;
+V – n corresponde ao número de dias úteis compreendidos entre a data de liquidação da venda, inclusive, e a data de liquidação da revenda, exclusive;
+VI – CJ1 corresponde ao primeiro cupom de juros unitário pago pelo título durante a vigência do compromisso;
+VII – m corresponde ao número de dias úteis compreendidos entre a data de pagamento do cupom de juros, inclusive, e a data de liquidação da revenda, exclusive;
+VIII – CJ2 corresponde ao segundo cupom de juros unitário pago pelo título durante a vigência do compromisso;
+IX  –  q corresponde ao número de dias úteis compreendidos entre a data de pagamento do segundo  cupom de juros, inclusive, e a data de liquidação da revenda, exclusive; e
+X  –  P corresponde ao produtório.
+7. Não havendo pagamento de cupom de juros durante a vigência do compromisso, os valores “CJ1” e “CJ2” contidos na fórmula definida no sexto parágrafo serão iguais a zero.
+8. As operações de que tratam este Comunicado devem ser registradas no Selic sob o código 1047.
+Departamento de Operações do Mercado Aberto
+André de Oliveira Amante
+Chefe",0
+"O certificado digital SSL wildcard do Banco Central do Brasil utilizado em sistemas disponíveis na Internet será substituído no dia
+16 de junho de 2024
+,
+a partir das 8h
+. O novo certificado digital, bem como sua cadeia de confiança, está disponível em:
+https://www.bcb.gov.br/estabilidadefinanceira/certificacaodigital.
+2. Os usuários de serviços webservices devem verificar e providenciar os necessários ajustes decorrentes da troca do certificado digital.
+3.  Os principais sistemas afetados serão:
+Sistema         Endereço
+BCCorreio       https://bccorreio.bcb.gov.br/bccorreiows/
+PTAX            https://ptax.bcb.gov.br/wsmoeda/
+RDR             https://www3.bcb.gov.br/rdrws/
+SCR             https://scr.bcb.gov.br/wsscr/
+SGS             https://www3.bcb.gov.br/wssgs/services/FachadaWSSGS/
+STA
+https://sta.bcb.gov.br/staws/
+Dados abertos   https://dadosabertos.bcb.gov.br/
+Haroldo Jayme Martins Froes Cruz
+Chefe do Departamento de Tecnologia da Informação",0
+"Divulgamos o nome aprovado de pessoas eleitas/nomeadas para cargos de órgãos estatutários ou contratuais de instituições financeiras, administradoras de consórcio e demais sociedades autorizadas a funcionar pelo Banco Central do Brasil:
+Processo:
+268471.
+Data do despacho:
+4.6.2024.
+Instituição:
+Cooperativa de Crédito Carlos Chagas Ltda. - Sicoob Carlos Chagas (CNPJ 41.753.500).
+Ato societário:
+Assembleia Geral Ordinária de 1.4.2024.
+Órgão estatutário:
+Conselho Fiscal.
+Nomes:
+Kassia Martins Costa Alves (CPF 046.497.496-89); Márcio Felipe Viana Maia (CPF 084.829.956-69); Otávio Pereira Coelho (CPF 109.242.536-57); e Samuel Nacur Batista Rodrigues Quaresma (CPF 103.597.406-18).
+Processo:
+268549.
+Data do despacho:
+5.6.2024.
+Instituição:
+Emcash Serviços Financeiros Sociedade de Empréstimo entre Pessoas S.A. (CNPJ 34.139.916).
+Ato societário:
+Assembleia Geral Ordinária e Extraordinária de 29.4.2024.
+Órgão estatutário:
+Diretoria.
+Nomes:
+Guilherme Bianchetti Correa Maia (CPF 084.913.606-70); e Márcio Nunes da Silva (CPF 512.399.905-10).
+Processo:
+268553.
+Data do despacho:
+4.6.2024.
+Instituição:
+Agência de Fomento do Estado do Amazonas S.A. - Afeam (CNPJ 03.183.937).
+Ato societário:
+Reunião do Conselho de Administração de 29.4.2024.
+Órgão estatutário:
+Diretoria Colegiada.
+Nomes:
+Cristina Coelho da Silva (CPF 418.291.662-04); João Batista Silva Tavares (CPF 077.593.982-04); e Marcos Vinícius Cardoso de Castro (CPF 347.152.742-72).
+Processo:
+269170.
+Data do despacho:
+5.6.2024.
+Instituição:
+Mercado Crédito Sociedade de Crédito, Financiamento e Investimento S.A. (CNPJ 37.679.449).
+Ato societário:
+Assembleia Geral Extraordinária de 10.5.2024.
+Órgão estatutário:
+Diretoria.
+Nome:
+Ricardo Lagreca Siqueira (CPF 149.094.518-03).
+Processo:
+268444.
+Data do despacho:
+28.5.2024.
+Instituição:
+Cooperativa de Crédito e Investimento com Interação Solidária Centro Serra - Cresol Centro Serra (CNPJ 01.155.801).
+Ato societário:
+Reunião do Conselho de Administração de 29.4.2024.
+Órgão estatutário:
+Diretoria Executiva.
+Nome:
+Taynara Mariot (CPF 096.055.039-99).
+Carolina Pancotto Bohrer
+Chefe do Departamento de Organização do Sistema Financeiro",0
+"O Banco Central do Brasil, tendo em vista o disposto na Resolução CMN nº 2.939, de 26 de março de 2002, e na Resolução BCB nº 76, de 23 de fevereiro de 2021, torna público que, das 11:30 às 11:40 horas do dia 7 de junho de 2024, acolherá propostas das instituições
+ financeiras participantes do módulo Oferta Pública (Ofpub) para a realização de operações de swap a serem registradas na B3 - Brasil, Bolsa, Balcão S.A., nos termos do ""Contrato de Swap Cambial com Ajuste Periódico Baseado em Operações Compromissadas de Um
+ Dia - SCS"" daquela bolsa, com as seguintes características:
+Posição          Posição
+Data de       Data de       assumida pelo    assumida pelas   Quantidade de
+início        vencimento    Banco Central    inst.financeiras contratos
+01/08/2024    03/02/2025     compradora       vendedora        até 12.000
+01/08/2024    01/04/2025     compradora       vendedora        até 12.000
+2. Serão aceitos no máximo até 12.000 (doze mil) contratos a serem distribuídos a critério do Banco Central do Brasil, entre os vencimentos acima mencionados.
+3.  Na formulação das propostas, limitadas a 5 (cinco) por instituição, deverão ser informadas a quantidade de contratos e a respectiva taxa de juros representativa de cupom cambial, expressa como taxa linear anual, base 360 (trezentos e sessenta) dias corridos,
+ com 3 (três) casas decimais.
+4. Na apuração da presente oferta pública será utilizado o critério de preço único, acatando-se todas as propostas com taxa igual ou inferior à taxa máxima aceita pelo Banco Central do Brasil, a qual será aplicada a todas as propostas vencedoras.
+5. O resultado desta oferta pública será divulgado após a apuração realizada pelo  Banco Central do Brasil.
+6. Após a divulgação do resultado, o Banco Central do Brasil enviará à B3 a relação das instituições contempladas, a quantidade de contratos aceita para cada uma e a taxa de juros apurada no leilão.
+7. Conforme previsto em Ofício-circular da B3, as instituições que tiverem suas propostas aceitas deverão eleger uma corretora associada àquela bolsa para que proceda ao pré-registro das operações de swap de que se trata.
+8. As pessoas físicas e as demais pessoas jurídicas poderão participar da oferta de que trata este comunicado, por intermédio das instituições referidas no parágrafo primeiro.
+9. A presente oferta pública será realizada exclusivamente pelo módulo Ofpub, previsto no Regulamento do Sistema Especial de Liquidação e de Custódia (Selic).
+Departamento de Operações do Mercado Aberto
+André de Oliveira Amante
+Chefe",0
