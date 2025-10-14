@@ -4,7 +4,7 @@
 
 ### Diagrama de Casos de Uso
 
-Expressa as expectativas dos stakeholders. POde ser usado durante todo o processo de análise e clarificação de requisitos.
+Expressa as expectativas dos stakeholders. Pode ser usado durante todo o processo de análise e clarificação de requisitos.
 
 Responde as seguintes perguntas:
 
