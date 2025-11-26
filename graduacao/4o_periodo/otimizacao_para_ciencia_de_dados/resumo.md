@@ -68,14 +68,16 @@ $**
 
 - **Otimização Convexa**
     - **Conjunto Convexo:** **$C$** é convexo **$\iff \forall \text{ } x, y \in C$** temos **$\lambda x + (1 - \lambda)y \in C\text{ }$**  **$\forall \text{ }\lambda \in [0, 1]$**
-    - **Função Convexa:** **$f$** convexa se: **$f(\lambda x + (1 - \lambda)y) \le \lambda f(x) + (1 - \lambda)f(y)$**  **$\forall \text{ } x,y \in C$**  
+    - **Função Convexa:** 
+        - **$f$** convexa se: **$f(\lambda x + (1 - \lambda)y) \le \lambda f(x) + (1 - \lambda)f(y)$**  **$\forall \text{ } x,y \in C$**  
+        - **Condição de Primeira Ordem:** **$f$** é convexa **$\iff$** **$\text{ } f(y) \ge f(x) + \left<\nabla f(x), y - x\right>\text{ }\forall \text{ } x,y\in C$**
+        - **Condição de Segunda Ordem:** **$f \text{ é} \text{ convexa} \iff \nabla^2f(x)\ge 0 \text{ } \forall \text{ }x \in C$**
+        - **Convexidade Forte:** **$\nabla^2 f(x) > m \text{ , Para algum } m \gt 0$**
+        - **Quadrática:** Se **$A$** é simétrica e **$f(x) = x^TAx + 2b^Tx +c$**, então **$f { é }\text{ convexa } \iff A \ge 0 $**
 
     - **Desigualdade de Jensen:** Seja **$f$** convexa num conjunto **$C$** convexo, então:
         - Para quaisquer **$x_1, \dots, x_n \in C$** e quaisquer pesos **$\lambda_1, \dots, \lambda_n$** tais que **$\lambda_i \ge 0$** e **$\sum_{i=1}^{n}{\lambda_i} = 1$**, vale: **$f\left(\sum_{i=1}^{n}{\lambda_i x_i}\right) \le \sum_{i=1}^{n}{\lambda_i f(x_i)}$**
-    - **Condição de Primeira Ordem:** **$f$** é convexa **$\iff$** **$\text{ } f(y) \ge f(x) + \left<\nabla f(x), y - x\right>\text{ }\forall \text{ } x,y\in C$**
 
-    - **Quadrática:** Se **$A$** é simétrica e **$f(x) = x^TAx + 2b^Tx +c$**, então **$f { é }\text{ convexa } \iff A \ge 0 $**
-    - **Condição de Segunda Ordem:** **$f \text{ é} \text{ convexa} \iff \nabla^2f(x)\ge 0 \text{ } \forall \text{ }x \in C$**
     - Seja **$f \text{ não }\text{convexa}: C \rightarrow \R$** então **$x^*$** min local **$\Rightarrow \left<\nabla f(x), x - x^*\right> \ge 0 \text{ } \forall \text{ } x \in C$** 
     - Seja **$f \text{convexa}: C \rightarrow \R$** então **$x^*$** min local **$\iff \left<\nabla f(x), x - x^*\right> \ge 0 \text{ } \forall \text{ } x \in C$** 
     - **Propriedades:**
@@ -96,7 +98,7 @@ $**
             - **$c_j^Tx^* - d_j = 0\text{ | } j = [1..p]$**
         - **b)** Se **$f$** é convexa, então **$x^*$** é solução global **$\iff$** 
             -  **$\exist \text{ }\lambda_1,.., \lambda_m \ge 0$** e **$\mu_1, \mu_p \in \R$** satisfazendo as condições acima
----
+
 - **Langrangeano e KKT Geral**
     - Um problema geral tem a seguinte forma:
         - **$minimize_x \text{ } f(x)$** sujeito à:
@@ -131,6 +133,82 @@ $**
         - **$g_i (\hat x) < 0, i = [1 ..  m]$** não-afins
         - **$h_j (\hat x) ≤ 0, j = [1 ..  p]$** afim
         - **$s_k (\hat x) = 0, k = [1 ..  q]$** afim
+
+- **Direção de Descida:** **$d$** é uma direção de descida no ponto **$x$** se **$\left< d, \nabla f(x) \right> < 0$**
+
+- **SubGradiente:** **$g_x$** é subgradiente de **$f$** em **$x$** se: **$f(y) \ge f(x) + \left< g_x, y - x \right>, \text{ } \forall y \in \R^n$**
+    - **Conjunto dos subgradientes em $x$:** **$\partial f(x) = \set{g \in \R^n : f(y) \ge f(x) + \left< g, y - x \right>, \text{ } \forall y \in \R^n}$**
+    - **Convexidade:** **$f$** convexa **$\iff$** **$\partial f(x) \neq \varnothing$**
+
+- **Função Suave:** **$f$** é **$L$-suave** (**$L > 0$**): 
+    - **$ \iff$**
+        - **$f \text{ é diferenciavel; e }$** 
+        - **$||\nabla f(y) - \nabla f(x)||_2  | \le L||y - x||_2 \text{ , } \forall \text{ }y,x \in \R^n$**
+    - **$\text{Consequência3} |f(y) - [f(x) + \left< \nabla f(x), y-x\right>]$**
+    - Se **$f$** é $L$-suave e **$\alpha = \frac{\beta}{L} | \beta \in \left(0,2\right)$**. Então:
+        - **$\min_{t \in T} ||\nabla f(x^t)||^2_2 \le \frac{1}{T}\sum_{t=1}^T{||\nabla f(x^t)||_2^2} \le (\frac{2 / \beta}{2 - \beta})\frac{L(f(x^t) - f^*)}{T}$**
+
+- **Função M-Lipschitz contínua:** 
+    - **$|f(y) - f(x)| \le M ||y - x||_2 \text{ }\forall y, x \in \R^n $**
+    - **$|f(y) - [f(x) + \left< g_x, y-x\right>] | \le M||y - x||_2 \text{ , } \forall \text{ }y,x \in \R^n$**
+    - **$\iff ||g_x||_2 \le M, \forall g_x \in \R^n$**
+
+- **Operador Proximal $prox_g(x):=$** **$\argmin_{y \R^n} \set{g(y) + \frac{1}{2} {||y - x||_2^2}}$**
+
+- **Norma Preconizada:** **$||x||_A := \sqrt{\left<x, Ax \right>} $**
+
+- **Número de Condição $\kappa$:**  **$\frac{\lambda_{maior}}{\lambda_{menor}}$** 
+    - **$\kappa \approx 1$** (Ideal)  
+    - **$\kappa >> 1$** (Convergência lenta, oscilatória e difícil)  
+
+- **Projeção Ortogonal:** 
+    - **$\sqcap_{x \in C}[y]$:** projeção ortogonal x de y no conjunto C
+    - **Hiperplano: $H:= \set{a^Tx = b }\Rightarrow$** **$\sqcap_{x \in H}[y] = y - \frac{a^Ty - b}{||a||_2^2}a$**
+    - **Semi-espaço: $C:= \set{a^Tx \le b }\Rightarrow$** **$\sqcap_{x \in C}[y] = y - \frac{\max{\set{0, a^Ty - b}}}{||a||_2^2}a$**
+    
+- **Método do Gradiente:** 
+    - **GD (batch)** usa um lote do conjunto para dar um passo, já o **SGD (estocástico)** dá um passo a cada dado, o que faz dele mais instável e oscilatório, porém é mais barato computacionalmente.
+    - **$x^{t+1} = x^t - \alpha \nabla f(x^t)$**
+    - **$f$** **suave**: **$f(x^{t + 1}) \le f(x^t) - \alpha (1 - \frac{\alpha L}{2}) ||\nabla f(x^t)||^2$**
+    
+    - **$f$ suave e convexo:**
+        - se **$\alpha \in (0, 2/L)$**, então: **$||x^{t + 1} - x^*||_2^2 \le ||x^t - x^*||_2^2 - \alpha \left( 2 - \frac{1}{ 1 - (\alpha L / 2)}(f(x^t) - f^*) \right)$**
+        - **$\alpha = \beta / L : \beta \in (0, 1) $**, então: **$f(x^T) - f^* \le \frac{1}{T} \sum^T_{t=1}{(f(x^t) - f^*)} \le \left( \frac{\beta^{-1} - 1/2}{ 1 - \beta}\right)\frac{L ||x^1 - x^*||_2^2}{T}$**
+
+
+- **Método do SubGradiente:** 
+    - Não é um método de descida, só garante que a distância até o ótimo diminui
+    - **Normal:**
+        - **$x^{t+1} = x^{t} - \alpha _t g^t : g^t \in \partial f(x^t)$**.  **Return** **$\bar{x}^t = \sum_{t = 1}^T{\frac{\alpha _ t}{ \sum_{l = 1}^{T}}}x^t$**
+        
+        
+        
+        - **$||x^{t+1} - x^*||_2^2 \le ||x^t - x^*||_2^2 - \alpha_t (f(x^t) - f^*) + M^2 \alpha_t^2$**
+        
+        -  **$f(x^T) - f^* \le \frac{1}{T} \sum^T_{t=1}{(f(x^t) - f^*)} \le \frac{||x^1 - x^*||_2^2 + M^2 \sum_{t=1}^T \alpha_t^2}{\sum_{t=1}^t{\alpha_t}}$**
         
 
+    - **Projetado (Para Restrições):**
+        - **$x \in C \Rightarrow x^{t + 1} = \sqcap_{x \in C}[x^t - \alpha_tg^t]$**
 
+    - **Proximal (Para Regularização):**
+        - Minimizar **$f(x) + g(x)$**: $f$ suave e $g$ não suave
+        - Dois passos:
+            - **$\bar{x}^{t} = \argmin_{x \in \R^n} \set{f(x^t) + \left< g^t, x - x^t\right> + \frac{1}{2 \alpha_t} ||x - x^t||_2^2} = x^t - \alpha_t g^t $**
+            - **$x^{t + 1} = \argmin_{x\in\R^n} ||g(x) - (x^t - \alpha_tg^t)||_2^2 = prox_{\alpha_tg(\bar{x}^t)}$**
+
+
+- **Método de Newton:** 
+    - **$x^{t + 1} := x^t - \left[\nabla^2 f(x^t) \right]^{-1} \nabla f(x^t)\text{ .Return  } x^T$** 
+
+    - **${x}^{t + 1} = \argmin_{x \in \R^n} \set{f(x^t) + \left< \nabla f(x^t), x - x^t\right> + \frac{1}{2} ||x - x^t||_{\nabla^2 f(x^t)}^2}$**
+
+    - **$x^{t + 1} = \argmin_{x\in\R^n} ||x - (\nabla f(x^t))||_{\nabla^2 f(x^t)}^2$**
+
+- **Problema Dual:** Seja **$f^*$** a solução de um problema de otimização e **$L(x, \lambda, \mu)$** o seu lagrangeano. A função objetivo dual **$q(\lambda, \mu) = \min_{x \in C} L(x, \lambda, \mu)$**
+    - **Domínio:** **$dom(q) := \set{(\lambda, \mu) \in \R^m \times \R^p : q(\lambda, \mu) \gt - \infty}$**
+    - **Problema Dual:** **$q^* := \max_{(\lambda, \mu)}q(\lambda, \mu); \text{ s.t. } (\lambda, \mu) \in dom(q)$**
+    - **Dualidade Fraca:** **$q^* \le f^*$**
+    - **Dualidade Forte:** **$q^* = f^*$**
+    - **Problema Convexo:** garante a dualidade forte.
+    
