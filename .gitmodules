@@ -19,3 +19,6 @@
 [submodule "fieldProject/hospital"]
 	path = fieldProject/hospital
 	url = https://github.com/alexoliveiraFGV24/FIELDS-EMAp-25.2-FJLES.git
+[submodule "fieldProject/ML_sabara"]
+	path = fieldProject/ML_sabara
+	url = https://github.com/joaolfig/ML_sabara.git
