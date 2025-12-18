@@ -22,3 +22,6 @@
 [submodule "fieldProject/ML_sabara"]
 	path = fieldProject/ML_sabara
 	url = https://github.com/joaolfig/ML_sabara.git
+[submodule "mestrado/deep_learning/kaggle/Social-Action-Recognition-in-Mice"]
+	path = mestrado/deep_learning/kaggle/Social-Action-Recognition-in-Mice
+	url = https://github.com/matheuspinto4/Social-Action-Recognition-in-Mice.git
